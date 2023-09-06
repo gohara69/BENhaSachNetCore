@@ -63,3 +63,7 @@ D:\Workspace\NetCore\NhaSachDotNet\obj\Debug\net6.0\refint\NhaSachDotNet.dll
 D:\Workspace\NetCore\NhaSachDotNet\obj\Debug\net6.0\NhaSachDotNet.pdb
 D:\Workspace\NetCore\NhaSachDotNet\obj\Debug\net6.0\NhaSachDotNet.genruntimeconfig.cache
 D:\Workspace\NetCore\NhaSachDotNet\obj\Debug\net6.0\ref\NhaSachDotNet.dll
+D:\Workspace\NetCore\NhaSachDotNet\bin\Debug\net6.0\CoreApiResponse.dll
+D:\Workspace\NetCore\NhaSachDotNet\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Workspace\NetCore\NhaSachDotNet\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Workspace\NetCore\NhaSachDotNet\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -32,5 +32,11 @@ namespace NhaSachDotNet.Entity
         public string ngonNgu { get; set; }
         public long tacgiaid { get; set; }
         public string thumbnail { get; set; }
+        public List<ChiTietHoaDon> listCTHD { get; set; }
+        
+        public Sachs()
+        {
+            listCTHD = new List<ChiTietHoaDon>();
+        }
     }
 }

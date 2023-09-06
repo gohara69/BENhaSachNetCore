@@ -1,5 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using NhaSachDotNet.DTO;
 using NhaSachDotNet.Entity;
+using NhaSachDotNet.Repository;
+using NhaSachDotNet.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +16,13 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB"));
 });
+
+//DI config repository
+builder.Services.AddScoped<IRepository<TheLoai>, TheLoaiRepository>();
+
+//DI config service
+builder.Services.AddScoped<IService<TheLoaiDTO>, TheLoaiService>();
+
 
 var app = builder.Build();
 
